@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyStress</title>
+    <link rel="shortcut icon" type="x-icon" href="image/IMG_4745.JPG" />
+    <link rel="stylesheet" href="problem.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="home" class="hero">
+      <nav>
+        <h2 class="logo"><a href="./index.html">al-<span>Firnas</span></a></h2>
+        <ul id="menuList">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./problem.html">Problem Identification</a></li>
+          <li><a href="./design.html">Design Requirement</a></li>
+          <li><a href="./analysis.html">Design Analysis To-Date</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+        <!--<a href="#" class="btn" onclick="togglemenu()">Connect</a>-->
+      </nav>
+
+      <div class="content">
+        <h1>Problem <br /><span>Identification</span></h1>
+      </div>
+    </div>
+
+    <!----------------Introduction----------------->
+    <div id="team">
+      <div class="container">
+        <div class="chart-col-1">
+          <h2>Introduction</h2>
+        </div>
+      </div>
+      <div class="box">
+        <!----zack---->
+        <div class="card">
+          <img
+            style="border-radius: 10%"
+            src="https://asifocus.com/wp-content/uploads/2020/02/bigstock-Overworked-Accountant-Holding-116075987.jpg"
+            width="300px" height="200px"
+          />
+          <div class="pra">
+            <p>Ineffective stress management 
+              among auditors in Malaysia</p>
+          </div>
+        </div>
+    </div>
+
+    <!----------------Problem----------------->
+    <div id="team">
+      <div class="container">
+        <div class="chart-col-1">
+          <h2>Problem Statement</h2>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card">
+          <img
+            style="border-radius: 10%"
+            src="https://www.acuitymag.com/-/media/cc9a91e9f71b428780d47457c73b9e8d.ashx"
+            width="300px" height="200px"
+          />
+          <div class="pra">
+            <p>Muhammad Zakwan</p>
+          </div>
+        </div>
+    </div>
+    
+    <!----------------Target User----------------->
+    <div id="team">
+        <div class="container">
+          <div class="chart-col-1">
+            <h2>Target User</h2>
+          </div>
+        </div>
+        <div class="box">
+          <div class="card">
+            <img
+              style="border-radius: 10%"
+              src="https://cdn.corporatefinanceinstitute.com/assets/auditor-1024x684.jpeg"
+              width="300px" height="200px"
+            />
+            <div class="pra">
+              <p>Early stages (Level 1 and Level 2) 
+                stress among auditors</p>
+            </div>
+          </div>
+        </div>  
+    </div>
+
+    <!----------------User Needs & Benchmarking----------------->
+    <div id="chart">
+      <div class="container">
+        <div class="chart-col-1">
+          <h2>User Needs & Benchmarking</h2>
+        </div>
+        <div class="chart-col-2">
+          <img src="image/Cover Page.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!----------------Footer----------------->
+    <footer>
+      <p class="end">Copyright By Al-Firnas</p>
+    </footer>
+  </body>
+
+  <script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemenu() {
+      if (menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "300px";
+      } else {
+        menuList.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</html>

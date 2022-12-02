@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyStress</title>
+    <link rel="shortcut icon" type="x-icon" href="image/IMG_4745.JPG" />
+    <link rel="stylesheet" href="design.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="home" class="hero">
+      <nav>
+        <h2 class="logo">
+          <a href="./index.html">al-<span>Firnas</span></a>
+        </h2>
+        <ul id="menuList">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./problem.html">Problem Identification</a></li>
+          <li><a href="./design.html">Design Requirement</a></li>
+          <li><a href="./analysis.html">Design Analysis To-Date</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="togglemenu()"></i>
+        <!--<a href="#" class="btn" onclick="togglemenu()">Connect</a>-->
+      </nav>
+
+      <div class="content">
+        <h1>Design <br /><span>Requirement</span></h1>
+      </div>
+    </div>
+
+    <!----------------Design Specs----------------->
+    <div id="chart">
+      <div class="container">
+        <div class="chart-col-1">
+          <h2>Design Specification Table</h2>
+        </div>
+        <div class="chart-col-2">
+          <img src="image/Cover Page.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!----------------Footer----------------->
+    <footer>
+      <p class="end">Copyright By Al-Firnas</p>
+    </footer>
+  </body>
+
+  <script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemenu() {
+      if (menuList.style.maxHeight == "0px") {
+        menuList.style.maxHeight = "300px";
+      } else {
+        menuList.style.maxHeight = "0px";
+      }
+    }
+  </script>
+</html>
