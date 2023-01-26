@@ -11,7 +11,7 @@ body {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(image/bg.jpg);
+  background-image: url(image/bg\ 2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -34,7 +34,7 @@ nav {
 }
 .logo {
   color: white;
-  padding-top: 40px;
+  padding-top: 60px;
   font-size: 25px;
   letter-spacing: 1px;
   cursor: pointer;
@@ -126,14 +126,6 @@ h3 {
   cursor: pointer;
   transform: scale(0.9);
 }
-/*.header-text {
-  margin-top: 20%;
-  font-size: 25px;
-}
-.header-text h1 {
-  font-size: 60px;
-  margin-top: 20px;
-}*/
 
 /*-------------team------------*/
 #team {
@@ -141,11 +133,6 @@ h3 {
   color: white;
   background-color: #0e0e0e;
 }
-/*.row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}*/
 .box {
   display: flex;
   justify-content: center;
@@ -171,14 +158,25 @@ h4 {
 p {
   color: white;
   font-size: 15px;
-  padding: 10px 8%;
+  padding-top: 10px;
+  padding: 10px 5%;
   text-align: justify;
 }
 
 /*-------------chart------------*/
-#chart {
-  padding: 30px 0;
-  color: white;
+#user {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/user\ need.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#bench {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/existing\ 1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 /*.chart-col-1 {
   flex-basis: 35%;
@@ -213,7 +211,7 @@ footer p:nth-child(1) {
 }
 .end {
   color: white;
-  bottom: -35px;
+  bottom: -45px;
   font-size: 14px;
   position: absolute;
 }
@@ -222,7 +220,7 @@ footer p:nth-child(1) {
   .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(image/bg.jpg);
+    background-image: url(image/bg\ 2.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -297,12 +295,15 @@ footer p:nth-child(1) {
   h1 {
     color: white;
     margin: 40px 0px 5px;
-    font-size: 45px;
+    font-size: 33px;
   }
   h3 {
     color: white;
     font-size: 18px;
     margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 20px;
   }
   .newslatter form {
     width: 200px;
@@ -387,6 +388,20 @@ footer p:nth-child(1) {
     margin-top: 30px;
     border-radius: 10px;
   }
+  #user {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/user\ need\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #bench {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/existing\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
   footer {
     position: relative;
     width: 100%;
@@ -403,7 +418,7 @@ footer p:nth-child(1) {
   }
   .end {
     color: white;
-    bottom: -40px;
+    bottom: -45px;
     font-size: 10px;
     position: absolute;
   }
