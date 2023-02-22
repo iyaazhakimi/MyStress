@@ -265,46 +265,28 @@ footer p:nth-child(1) {
   nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding-top: 45px;
-    padding-bottom: 25%;
     padding-left: 8%;
     padding-right: 8%;
   }
   .logo {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 5px;
     letter-spacing: 1px;
   }
   .logo:hover {
     cursor: pointer;
   }
-  nav ul {
-    width: 100%;
-    background: #343434;
-    position: absolute;
-    top: 87px;
-    right: 0;
-    z-index: 2;
-  }
-  nav ul li {
-    list-style-type: none;
-    display: block;
-    padding: 12px 40px;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
   nav ul li a {
     color: #ababab;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     position: relative;
   }
   nav ul li a::after {
     content: "";
-    width: 0;
+    width: 100%;
     height: 3px;
     background: #343434;
     position: absolute;
@@ -322,7 +304,7 @@ footer p:nth-child(1) {
     color: #ababab;
   }
   #menuList {
-    overflow: hidden;
+    overflow: auto;
   }
   /*.header-text h1 {
     font-size: 40px;
@@ -390,6 +372,41 @@ footer p:nth-child(1) {
     bottom: -6px;
     transition: 0.5s;
   }
+  #level {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/level\ m.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #test {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/test\ m.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #tips {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/tips\ m.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #book {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/book\ m.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #data {
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/data\ m.jpg);
+    background-size: cover;
+    background-position: center;
+  }
   .box {
     display: flex;
     flex-direction: column;
@@ -426,21 +443,21 @@ footer p:nth-child(1) {
   footer {
     position: relative;
     width: 100%;
-    height: 50px;
+    height: 15px;
     background: #0e0e0e;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 45px;
   }
   footer p:nth-child(1) {
-    font-size: 13px;
+    font-size: 11px;
     color: white;
   }
   .end {
-    color: white;
     bottom: 15px;
-    font-size: 10px;
+    font-size: 14px;
     position: absolute;
   }
 }
